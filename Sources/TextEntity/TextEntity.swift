@@ -54,7 +54,7 @@ open class TextEntity : Entity {
         makeText(text: text, color: color)
     }
     
-    public init(text: String = "Hello World", color: UIColor = .blue, isLit: Bool = true, size: CGFloat = 0.1, isMetallic: Bool = true, fontName: String = "Helvetica", extrusionDepth: Float = 0.01, alignment: alignment = .center) {
+    public init(text: String = "Hello World", color: UIColor = .blue, isLit: Bool = true, size: CGFloat = 0.1, isMetallic: Bool = false, fontName: String = "Helvetica", extrusionDepth: Float = 0.01, alignment: alignment = .center) {
         super.init()
         self.text = text
         self.color = color
